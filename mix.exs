@@ -50,7 +50,8 @@ defmodule PersonalProject.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:absinthe, "~> 1.5"},
-      {:absinthe_phoenix, "~> 2.0.0"}
+      {:absinthe_phoenix, "~> 2.0.0"},
+      {:absinthe_error_payload, "~> 1.0"}
     ]
   end
 

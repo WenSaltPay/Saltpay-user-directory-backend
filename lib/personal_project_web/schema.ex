@@ -1,6 +1,8 @@
 defmodule IntroGraphQlWeb.Schema do
   use Absinthe.Schema
   alias PersonalProject.Databaseops.LeaderOperations
+
+
   import_types(PersonProjectWeb.InputTypes)
 
   query do
