@@ -12,5 +12,8 @@ defmodule PersonalProject.Schemas.Leader do
     field :office_location
 
     timestamps()
+
   end
+
+
 end
