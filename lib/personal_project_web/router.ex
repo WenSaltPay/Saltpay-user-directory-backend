@@ -21,7 +21,7 @@ defmodule PersonalProjectWeb.Router do
   end
 
   scope "graphiql" do
-    forward "/", Absinthe.Plug.GraphiQL, schema: IntroGraphQlWeb.Schema
+    forward "/", Absinthe.Plug.GraphiQL, schema: PersonProjectWeb.Schema
   end
 
   # Other scopes may use custom stacks.
